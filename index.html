@@ -1,11 +1,832 @@
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
-    <title>Flask Tutorial</title>
-  </head>
-  <body>
-    <h1> My First Try Using Flask </h1>
-    <p> Flask is Fun </p>
-  </body>
-</html>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Avita is a personal portfolio HTML template with clean and elegant design">
+    <meta name="keywords" content="dark, html, one page, bootstrap,design, creative, onepage, clean, modern,blog,business,parallax">
+    <title>Avita</title>
+    <!--css styles-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i%7CRaleway:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!---title logo icon-->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- Respond.js IE8 support media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+    <!-- Start Preloader -->
+    <div class="preloader">
+        <div class="preloader-img"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Start scroll-top button -->
+    <div id="scroll-top-area">
+        <a href="#"><span>Scroll Top</span><i class="fas fa-arrow-right"></i></a>
+    </div>
+    <!-- End scroll-top button -->
+
+    <!--Start Header-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html" class="logo">
+                        <img src="images/logoWhite.png" data-dark="images/logoBlack.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <nav class="menu single-page-nav" id="menu">
+                        <ul>
+                            <li><a class="home" href="#welcome-area">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#client-testimonial">Testimonial</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Header-->
+
+    <!--Start Welcome Section-->
+    <section class="welcome-area animated-text" id="welcome-area">
+        <div class="image-bg" id="welcome-image-area">
+            <div class="bg-overlay"></div>
+            <div class="welcome-overlay"></div>
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="welcome-text">
+                                    <div class="type-wrap">
+                                        <div id="typed-strings">
+                                            <h1>I'm <span>Kevin Watson</span></h1>
+                                            <h1>I'm a <span>Designer</span></h1>
+                                        </div>
+                                        <span id="typed"></span>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                                    <div class="social-icons">
+                                        <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-google"></i></a>
+                                        <a href="#"><i class="fab fa-skype"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Welcome Section-->
+
+    <!--Start About Section-->
+    <section class="about padding-style1" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="about-text">
+                        <p class="title-small">ABOUT ME</p>
+                        <h4 class="section-title">
+                            Hello! I am Kevin Watson
+                        </h4>
+                        <p class="about-text">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        </p>
+                        <div class="skills">
+                            <div class="progressbar-area">
+                                <h6>Html</h6>
+                                <div class="progress">
+                                    <div class="progress-bar prog1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" data-progress="80%">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                                <h6>Css</h6>
+                                <div class="progress">
+                                    <div class="progress-bar prog2" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" data-progress="94%">
+
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                                <h6>JavaScript</h6>
+                                <div class="progress">
+                                    <div class="progress-bar prog3" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" data-progress="86%">
+
+                                        <span>86%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="about-img">
+                        <img src="images/about.jpg" alt="" class="img-responsive">
+                        <div class="img-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End About Section-->
+
+
+    <!--Start Services Section-->
+    <section class="service padding-style1" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="service-header">
+                        <p class="title-small">WHAT I DO</p>
+                        <h4 class="section-title">My Services</h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                        <a href="#portfolio" class="btn-style3 service-btn">SEE MY WORKS</a>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <!---->
+                    <div id="owl-demo-service" class="owl-carousel owl-theme">
+                        <!--Start Service Single Item area-->
+                        <div class="item">
+                            <div class="service-item">
+                                <span><i class="fa fa-pen" aria-hidden="true"></i></span>
+                                <p class="content-title">Web Design</p>
+                                <div class="content-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Service Single Item area-->
+                        <!--Start Service Single Item area-->
+                        <div class="item">
+                            <div class="service-item">
+                                <span><i class="fa fa-leaf" aria-hidden="true"></i></span>
+                                <p class="content-title">Logo Design</p>
+                                <div class="content-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Service Single Item area-->
+                        <!--Start Service Single Item area-->
+                        <div class="item">
+                            <div class="service-item">
+                                <span><i class="fa fa-camera" aria-hidden="true"></i></span>
+                                <p class="content-title">Photography</p>
+                                <div class="content-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Service Single Item area-->
+                        <!--Start Service Single Item area-->
+                        <div class="item">
+                            <div class="service-item">
+                                <span><i class="fa fa-cube" aria-hidden="true"></i></span>
+                                <p class="content-title">Branding</p>
+                                <div class="content-description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Service Single Item area-->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Services Section-->
+
+
+    <!--Start Portfolio Section-->
+    <section class="portfolio padding-style1" id="portfolio">
+        <div class="portfolio-header">
+            <p class="title-small">SEE MY WORKS</p>
+            <h4 class="section-title">Portfolio</h4>
+        </div>
+        <div class="portfolio-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="portfolio-content-head">
+                            <ul class="controls">
+                                <li class="filter" data-filter="all">ALL</li>
+                                <li class="filter" data-filter=".design">DESIGN</li>
+                                <li class="filter" data-filter=".development">DEVELOPMENT</li>
+                                <li class="filter" data-filter=".plugin">PLUGIN</li>
+                                <li class="filter" data-filter=".photography">PHOTOGRAPHY</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs">
+                        <div class="portfolio-content-items">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix design">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="images/portfolio/img1.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">DESIGN</p>
+                                                    <a href="#">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                    <a href="images/portfolio/img1.jpg" data-lightbox="image-1">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix plugin">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="images/portfolio/img2.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">DESIGN</p>
+                                                    <a href="#">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                    <a href="images/portfolio/img2.jpg" data-lightbox="image-2">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix photography">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="images/portfolio/img3.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">DESIGN</p>
+                                                    <a href="#">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                    <a href="images/portfolio/img3.jpg" data-lightbox="image-3">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix design">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="images/portfolio/img4.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">DESIGN</p>
+                                                    <a href="#">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                    <a href="images/portfolio/img4.jpg" data-lightbox="image-4">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix development">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="images/portfolio/img5.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">DESIGN</p>
+                                                    <a href="#">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                    <a href="images/portfolio/img5.jpg" data-lightbox="image-5">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix development">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="images/portfolio/img6.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">DESIGN</p>
+                                                    <a href="#">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                    <a href="images/portfolio/img6.jpg" data-lightbox="image-6">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Portfolio Section-->
+
+
+    <!--Start Personal-detail Section-->
+    <section class="personal-detail" id="personal-detail">
+        <div class="detail-container">
+            <div class="personal-detail-content">
+                <div class="detail-overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="details-heading-area">
+                                <div class="detail-table-row">
+                                    <div class="detail-table-cell">
+                                        <h4>I provide the Best Quality</h4>
+                                        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt.</p>
+                                        <a href="#contact" class="btn-style3 hire-btn">HIRE ME</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="detail-content-area padding-style2">
+                                <div class="detail-header">
+                                    <p class="title-small">SEE MY DETAILS</p>
+                                    <h4 class="section-title">My Resume</h4>
+                                </div>
+                                <div class="detail-contents">
+                                    <nav>
+                                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-briefcase"></i>Experience</a>
+                                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-graduation-cap"></i>Education</a>
+                                        </div>
+                                    </nav>
+                                    <div class="tab-content detail-tab">
+                                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                            <div class="detail-item">
+                                                <span class="deatil-year">2013-2016</span>
+                                                <h6 class="deatil-title">UI/UX Developer - Themeforest</h6>
+                                                <p class="detail-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                            </div>
+                                            <div class="detail-item">
+                                                <span class="deatil-year">2017-2018</span>
+                                                <h6 class="deatil-title">Senior Developer - Creative Media</h6>
+                                                <p class="detail-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                            <div class="detail-item">
+                                                <span class="deatil-year">2006-2010</span>
+                                                <h6 class="deatil-title">Bachelor - XYZ University</h6>
+                                                <p class="detail-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                            </div>
+                                            <div class="detail-item">
+                                                <span class="deatil-year">2011-2013</span>
+                                                <h6 class="deatil-title">Master - XYZ University</h6>
+                                                <p class="detail-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End personal-detail Section-->
+
+
+    <!--Start Client Testimonial Section Area-->
+    <section class="client-testimonial padding-style1" id="client-testimonial">
+        <div class="testimonial-header">
+            <p class="title-small">TESTIMONIAL</p>
+            <h4 class="section-title">What People Say</h4>
+        </div>
+        <div class="client-area">
+            <div class="container">
+                <div class="row">
+                    <div id="owl-demo-testimonial" class="owl-carousel owl-theme">
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img1.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">OLIVIA GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img2.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">JOHN GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img3.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">SILVIA GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img1.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">OLIVIA GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img2.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">JOHN GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img3.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">SILVIA GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Client Testimonial Section Area-->
+
+
+    <!--Start FunFact Section Area-->
+    <section class="fun-fact fun-area padding-style1" id="fun-fact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <!--Start fun-item Area-->
+                    <div class="fun-item">
+                        <div class="count item-one">
+                            <h3><span class="counter">15</span></h3>
+                            <span class="count-underline"></span>
+                            <h6>Awards Received</h6>
+                        </div>
+                    </div>
+                    <!--End fun-item Area-->
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <!--Start fun-item Area-->
+                    <div class="fun-item">
+                        <div class="count item-two">
+                            <h3><span class="counter">250</span></h3>
+                            <span class="count-underline"></span>
+                            <h6>Projects Finished</h6>
+                        </div>
+                    </div>
+                    <!--End fun-item Area-->
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <!--Start fun-item Area-->
+                    <div class="fun-item">
+                        <div class="count item-three">
+                            <h3><span class="counter">1210</span></h3>
+                            <span class="count-underline"></span>
+                            <h6>Happy Clients</h6>
+                        </div>
+                    </div>
+                    <!--End fun-item Area-->
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <!--Start fun-item Area-->
+                    <div class="fun-item">
+                        <div class="count item-four">
+                            <h3><span class="counter">503</span></h3>
+                            <span class="count-underline"></span>
+                            <h6>Downloads</h6>
+                        </div>
+                    </div>
+                    <!--End fun-item Area-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End FunFact Section Area-->
+
+
+    <!--Start Blog Section Area-->
+    <section class="blog padding-style1" id="blog">
+        <div class="blog-header">
+            <p class="title-small">SEE MY BLOG</p>
+            <h4 class="section-title">Latest News</h4>
+        </div>
+        <div class="blog-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="blog-single-item blog-item-margin row">
+                            <div class="blog-img left col-md-12 col-lg-6">
+                                <img src="images/blog/blog-img1.jpg" alt="blog1" class="img-responsive">
+                            </div>
+                            <div class="blog-text col-md-12 col-lg-6">
+                                <p class="blog-title">Single Blog Post Title Goes Here</p>
+                                <p class="blog-detail">
+                                    <span>Date:</span>09-11-18
+                                    <span>|</span> Posted By <span>Kevin Watson</span>
+                                </p>
+                                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris eiusmod tempor incididunt ut labore et dolore magna aliqua...
+                                </p>
+                                <a href="#" class="read-more">READ MORE<i class="fas fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="blog-single-item blog-item-margin row">
+                            <div class="blog-text col-md-12 col-lg-6">
+                                <p class="blog-title">Single Blog Post Title Goes Here</p>
+                                <p class="blog-detail">
+                                    <span>Date:</span>09-11-18
+                                    <span>|</span> Posted By <span>Kevin Watson</span>
+                                </p>
+                                <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris eiusmod tempor incididunt ut labore et dolore magna aliqua...
+                                </p>
+                                <a href="#" class="read-more">READ MORE<i class="fas fa-angle-double-right"></i></a>
+                            </div>
+                            <div class="blog-img right col-md-12 col-lg-6">
+                                <img src="images/blog/blog-img2.jpg" alt="blog1" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Blog Section Area-->
+
+
+    <!--Start Newsletter Section-->
+    <section class="newsletter" id="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="newsletter-form">
+                    <form id="mc-form">
+                        <input type="email" id="mc-email" class="newsletter-email" placeholder="Type your email here">
+                        <button type="submit" class="submit-btn btn-style2">
+                            <span>Subscribe</span>
+                        </button>
+                        <label for="mc-email"></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Newsletter Section-->
+
+    <!--Start Contact Section-->
+    <section class="contact padding-style1" id="contact">
+        <div class="contact-header">
+            <p class="title-small">CONTACT ME</p>
+            <h4 class="section-title">Get In Touch</h4>
+        </div>
+        <div class="contact-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="contact-detail">
+                            <h6>Contact</h6>
+                            <p class="contact-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeatw.</p>
+                            <p class="adress">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>Address:</span>
+                                <span class="adress-loc">10,Park Strgfyguhijeet,London,UK.</span>
+                            </p>
+                            <p class="phone">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>Contact no:</span>+999000000
+                            </p>
+                            <p class="email">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <span>Email:</span>abcdefg@gmail.com
+                            </p>
+                            <p>
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                <span>Website:</span><a href="#">www.abcd.com</a>
+                            </p>
+                            <div class="social-icons">
+                                <p>Find:</p>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-google"></i></a>
+                                <a href="#"><i class="fab fa-skype"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="contact-form">
+                            <form class="contact-form-area" action="contact.php" method="post">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" name="name" placeholder="Name" id="form-name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="email" placeholder="Email" id="form-email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" name="subject" placeholder="Subject" id="form-subject">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea placeholder="Type here" name="message" id="form-message"></textarea>
+                                        <input type="submit" class="submit-btn btn-style1 clearfix" value="Submit" id="contact-submit">
+                                        <div class="result"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Contact Section-->
+
+    <!--Start Footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">
+                        <p>Copyright © 2018 Avita | All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <!--javascript-->
+    <script src="js/jquery.min.js "></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.min.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="js/jquery.waypoints.min.js "></script>
+    <script src="js/jquery.ajaxchimp.min.js "></script>
+    <script src="js/lightbox.js "></script>
+    <script src="js/typed.min.js "></script>
+    <script src="js/mixitup.min.js "></script>
+    <script src="js/jquery.counterup.min.js "></script>
+    <script src="js/jquery.singlePageNav.min.js "></script>
+    <script src="js/main.js"></script>
+</body>
