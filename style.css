@@ -37,8 +37,12 @@
 
 header
 {
-	background-color: black; 
+	background: url(picture2.jpg); 
 	height: 200px;
+	background-attachment: fixed;
+	width: 100%;
+	position: fixed;
+	top: 0;
 }
 
 .main-nav
@@ -51,7 +55,7 @@ header
 .main-nav li 
 {
 	display: inline-block;
-	margin-top: 60px;
+	margin-top: 55px;
 }
 
 .main-nav li a
@@ -59,8 +63,8 @@ header
 	color: gold;
 	text-decoration: none;
 	padding: 20px 30px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30px;
 }
 
 .main-nav li a:hover
@@ -71,9 +75,51 @@ header
 	color: red;
 }
 
-.logo
+.topleft li
+{
+	display: inline-block;
+	margin-top: 55px;
+}
+
+.topleft li a
+{
+	color: gold;
+	text-decoration: none;
+	padding: 20px 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 50px;
+}
+
+.topleft li a:hover
+{
+	border: 1px solid gray;
+	background-color: darkgray ;
+	border-radius: 25pt;
+	color: red;
+}
+
+/* .logo
 {
 	height: 200px;
 	width: 200px;
 	float: left;
+} */
+
+html
+{
+	height: 2000px;
+	background: url(picture2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100vw 100vh;
 }
+
+.caption
+{
+	margin-top: 220px;
+	text-transform: uppercase;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 27vh;
+	color: lightgray;
+}    
