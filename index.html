@@ -1381,12 +1381,7 @@
     <!-- Map Section End -->
 
     <!-- Contact Us Section -->
-    <form method="POST" action="https://formspree.io/kevinsuj@bu.edu">
-      <input type="email" name="email" placeholder="Your email">
-      <textarea name="message" placeholder="Test Message"></textarea>
-      <button type="submit">Send Test</button>
-    </form>
-    <!-- <section id="contact-map" class="section-padding">
+    <section id="contact-map" class="section-padding">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
@@ -1397,26 +1392,29 @@
           <div class="col-lg-7 col-md-12 col-xs-12">
             <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
               <div class="form-wrapper">
-                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
-                  <div class="row">
-                    
+                <form method="POST" action="https://formspree.io/kevinsuj@bu.edu">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your Name">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email" required data-error="Please enter your Email">
+                  <textarea class="form-control" rows="4" id="message" name="message" placeholder="Message" required data-error="Write your message"></textarea>
+                  <button type="submit">Send Test</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+
+                <!-- <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                  <div class="row">
                     <div class="col-md-12 form-line">
-                      <div class="form-group"></div>
-                        <form method="POST" action="https://formspree.io/kevinsuj@bu.edu">
-                          <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your Name">
-                          <input type="email" class="form-control" id="email" name="email" placeholder="Email" required data-error="Please enter your Email">
-                          <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone" required data-error="Please enter your Phone Number">
-                          <textarea class="form-control" rows="4" id="message" name="message" placeholder="Message" required data-error="Write your message"></textarea>
-                          <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Send</button>
-                        </form>
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your Name">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
-                    
-                    
 
-                    
                     <div class="col-md-12 form-line">
                       <div class="form-group">
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" required data-error="Please enter your Email">
@@ -1439,17 +1437,12 @@
                         <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Send</button>
                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                       </div>
-
                     </div>
                   </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-    </section> -->
+                </form> -->
+
+              
+    
     <!-- Contact Us Section End -->
 
     <!-- Footer Section Start -->
