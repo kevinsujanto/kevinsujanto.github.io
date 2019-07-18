@@ -98,6 +98,7 @@ ul li, ol li {
   font-size: 36px;
   color: #212121;
   line-height: 52px;
+  padding-top: 50px;
   padding-bottom: 20px;
   font-weight: 700;
   text-align: center;
@@ -605,8 +606,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #fff;
   z-index: 999999;
   top: 0px !important;
-  min-height: 58px;
-  max-height: 58px;
+  min-height: 50px;
+  max-height: 50px;
   box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -654,10 +655,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li > a:before {
   content: '';
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 50%;
-  margin-left: -10px;
-  width: 15px;
+  margin-left: -25px;
+  width: 50px;
   height: 2px;
   background: #09c002;
   -webkit-transform: scale3d(0, 1, 1);
@@ -1921,7 +1922,7 @@ a.back-to-top:hover, a.back-to-top:focus {
    Countdown Style Start
    ========================================================================== */
 .countdown-timer .heading-count {
-  padding: 10px 68px;
+  padding: 50px 68px;
 }
 
 .countdown-timer .heading-count h2 {
