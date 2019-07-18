@@ -1523,7 +1523,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   transform: scale(1.1);
 }
 
-/* Conact Home Page Section */
+/* Contact Home Page Section */
 .contact {
   background: #111111;
 }
@@ -1630,7 +1630,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   width: 100%;
 }
 
-/* Contact Forme */
+/* Contact Form */
+#contact-map {
+  background: #f2f2f2;
+}
+
 #google-map-area {
   position: relative;
 }
@@ -1921,6 +1925,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* ==========================================================================
    Countdown Style Start
    ========================================================================== */
+
+  #countdown {
+  background: #f2f2f2;
+}
+
 .countdown-timer .heading-count {
   padding: 50px 68px;
 }
