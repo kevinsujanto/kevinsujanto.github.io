@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
     <!-- Icon -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
     <!-- Slicknav -->
     <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
     <!-- Nivo Lightbox -->
@@ -38,7 +38,7 @@
               <span class="icon-menu"></span>
               <span class="icon-menu"></span>
             </button>
-            <a href="index.html" class="navbar-brand"><img src="assets/img/logo2.png" alt=""></a>
+            <a href="#" class="navbar-brand"><img src="assets/img/logo2.png" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -50,6 +50,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="#countdown">
                   Countdown
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
                 </a>
               </li>
               <li class="nav-item">
@@ -97,28 +102,16 @@
             <a class="page-scrool" href="#header-wrap">Home</a>
           </li>
           <li>
-            <a class="page-scrool" href="#countdown">About</a>
+            <a class="page-scrool" href="#countdown">Countdown</a>
           </li>
           <li>
-             <a class="page-scroll" href="#schedules">schedules</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#team">Speakers</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#gallery">Gallery</a>
+             <a class="page-scroll" href="#schedules">Schedules</a>
           </li>
           <li>
             <a class="page-scroll" href="#faq">Faq</a>
           </li>
           <li>
-            <a class="page-scroll" href="#sponsors">Sponsors</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#pricing">pricing</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#google-map-area">Contact</a>
+            <a class="page-scroll" href="#contact-map">Contact</a>
           </li>
         </ul>
         <!-- Mobile Menu End -->
@@ -139,7 +132,7 @@
             <div class="carousel-caption d-md-block">
               <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Kevin Sujanto</h1>
               <p class="fadeInUp wow" data-wow-delay=".6s">BA/MS Student in Computer Science</p>
-              <a href="resume.pdf" target="_blank" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">View Resume</a>
+              <a href="data/resume.pdf" target="_blank" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">View Resume</a>
               <a href="#countdown" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">Explore More</a>
             </div>
           </div>
@@ -174,7 +167,7 @@
     </header>
     <!-- Header Area wrapper End -->
 
-    <!-- Coundown Section Start -->
+    <!-- Countdown Section Start -->
     <section id="countdown" class="countdown-timer section-padding">
       <div class="container">
         <div class="row text-center">
@@ -187,7 +180,7 @@
             <div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
               <div id="clock" class="time-count"></div>
             </div>
-            <a href="pricing.html" class="btn btn-common wow fadeInUp" data-wow-delay="0.3s">Add to My Calendar</a>
+            <!-- <a href="pricing.html" class="btn btn-common-countdown wow fadeInUp" data-wow-delay="0.3s">Add to My Calendar</a> -->
           </div>
         </div>
       </div>
@@ -283,52 +276,142 @@
     </section> -->
     <!-- Services Section End -->
     
+    <!-- <section id="about" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title-header text-center">
+                <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">About Me</h1>
+                <p class="wow fadeInDown" data-wow-delay="0.2s">I LOVE <font color="green">GREEN</font> ALOT IF YOU CAN'T TELL</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
 
     <!-- About Section Start -->
     <section id="about" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title-header text-center">
-              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">About This Events</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="about-item">
-              <img class="img-fluid" src="assets/img/about/img1.jpg" alt="">
-              <div class="about-text">
-                <h3><a href="#">Wanna Know Our Mission?</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                <a class="btn btn-common btn-rm" href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="about-item">
-              <img class="img-fluid" src="assets/img/about/img2.jpg" alt="">
-              <div class="about-text">
-                <h3><a href="#">What you will learn?</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                <a class="btn btn-common btn-rm" href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="about-item">
-              <img class="img-fluid" src="assets/img/about/img3.jpg" alt="">
-              <div class="about-text">
-                <h3><a href="#">What are the benifits?</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                <a class="btn btn-common btn-rm" href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title-header text-center">
+                      <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">About Me</h1>
+                      <p class="wow fadeInDown" data-wow-delay="0.2s">I LOVE <font color="green">GREEN</font> ALOT IF YOU CAN'T TELL</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content mt-50">
+                        <h5 class="about-title">Hi There! I'm Kevin Sujanto</h5>
+                        <ul class="clearfix bot-margin">
+                           <li>
+                                <div class="single-info d-flex align-items-center">
+                                    <div class="info-icon">
+                                        <i class="lni-envelope"></i>
+                                    </div>
+                                    <div class="info-text">
+                                        <a href="mailto:kevinsuj@bu.edu"> kevinsuj@bu.edu</a>
+                                    </div>
+                                </div> <!-- single info -->
+                            </li>
+                            <li>
+                                <div class="single-info d-flex align-items-center">
+                                    <div class="info-icon">
+                                        <i class="lni-phone-handset"></i>
+                                    </div>
+                                    <div class="info-text">
+                                        <a href="tel:+14256150132"> +1 (425) 615-0132</a>
+                                    </div>
+                                </div> <!-- single info -->
+                            </li>
+                            <li>
+                                <div class="single-info d-flex align-items-center">
+                                    <div class="info-icon">
+                                        <i class="lni-map-marker"></i>
+                                    </div>
+                                    <div class="info-text">
+                                        <a href="https://www.google.com/maps/place/610+Beacon+St,+Boston,+MA+02215,+USA/@42.3496428,-71.0965729,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37a02d8081bcb:0xe37dfc725e23d492!8m2!3d42.3496428!4d-71.0943789"> Boston, MA</a>
+                                    </div>
+                                </div> <!-- single info -->
+                            </li>
+                            <li>
+                                <div class="single-info d-flex align-items-center">
+                                    <div class="info-icon">
+                                        <i class="lni-linkedin"></i>
+                                    </div>
+                                    <div class="info-text">
+                                        <a href="https://www.linkedin.com/in/kevinsujanto/"> LinkedIn</a>
+                                    </div>
+                                </div> <!-- single info -->
+                            </li>
+                        </ul>
+                        <p class="top-margin">
+                          I am currently pursuing a BA/MS degree in Computer Science at Boston University.
+                          <br />
+                          I want to learn every field in Computer Science before deciding what I should concentrate on so that I can choose what I want to do in the future correctly.
+                          <br />
+                          <br />
+                          I am currently a course assistant for CS132 in Boston University.
+                          CS132 is an introduction class about linear algebra. It includes basic concepts, data structures, and algorithms for geometric objects. This course is important for students who seek to concentrate in graphics.
+                          I hold office hours weekly to help students understand the material better.
+                          <br />
+                          <br />
+                          Other than academic work, I enjoy playing golf and piano during my free time.
+                          <br />
+                          <br />
+                          <strong>Happy Browsing!</strong>
+                          <br />
+                          <br />
+                          ---------------------------------------------------------------------------------------------------------------
+                          <br />
+                          <br />
+                          <div class="text-center">
+                              <a href= "data/resume.pdf" class="fadeInLeft wow btn btn-tes btn-test" download="K.pdf">
+                                <i class="fas fa-download mr-2"></i>
+                                Get PDF
+                              </a>
+                            </div>
+                          <!-- <a href="data/resume.pdf" target="_blank" class="fadeInLeft wow btn btn-tes btn-test" data-wow-delay=".6s">View Resume</a>
+                          <a href="data/resume.pdf" download class="fadeInLeft wow btn btn-tes btn-test" data-wow-delay=".6s">Download Resume</a> -->
+                          <br />
+                          <br />
+                          <a href="data/resume.pdf" target="_blank" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">Achievements</a>
+                          <br />
+                          <br />
+                          <a href="data/resume.pdf" target="_blank" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">Experience</a>
+                          <br />
+                          <br />
+                          <a href="data/resume.pdf" target="_blank" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">Blog</a>
+                          
+                        </p>
+                    </div> <!-- about content -->
+                </div>
+                <div class="skill-bar">
+                    <h1>Programming Skills</h1>
+                    <div class="bar back expert" data-skill="Java"></div>
+                    <div class="bar front expert" data-skill="Python"></div>
+                    <div class="bar back expert" data-skill="LaTeX"></div>
+                    <div class="bar front advanced" data-skill="Matlab"></div>
+                    <div class="bar back advanced" data-skill="SQL"></div>
+                    <div class="bar front intermediate" data-skill="CSS"></div>
+                    <div class="bar back intermediate" data-skill="HTML"></div>
+                    <div class="bar front intermediate" data-skill="Bash"></div>
+                    <div class="bar back basic" data-skill="MongoDB"></div>
+                    <div class="bar front basic" data-skill="XML"></div>
+                    <div class="bar back basic" data-skill="Haskell"></div>
+                    <div class="bar front learning" data-skill="x-86 Assembly"></div>
+                    <div class="bar back learning" data-skill="C"></div>
+                    <h1 class="top-margin">Languages</h1>
+                    <div class="bar front expert" data-skill="English"></div>
+                    <div class="bar back expert" data-skill="Indonesian"></div>
+                    <div class="bar front intermediate" data-skill="Mandarin"></div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
     </section>
+  
+      
     <!-- About Section End -->
 
     <!-- Counter Area Start-->
@@ -379,7 +462,7 @@
           <div class="col-12">
             <div class="section-title-header text-center">
               <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Schedule</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor</p>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Boston University Fall 2019 Schedule</p>
             </div>
           </div>
         </div>
@@ -391,7 +474,7 @@
                   <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday" aria-expanded="true">
                     <div class="item-text">
                       <h4>Monday</h4>
-                      <h5>14 February</h5>
+                      <!-- <h5>14 February</h5> -->
                     </div>
                   </a>
                 </li>
@@ -399,7 +482,7 @@
                   <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab" aria-controls="tuesday">
                     <div class="item-text">
                       <h4>Tuesday</h4>
-                      <h5>15 February</h5>
+                      <!-- <h5>15 February</h5> -->
                     </div>
                   </a>
                 </li>
@@ -407,7 +490,7 @@
                   <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday">
                     <div class="item-text">
                       <h4>Wednesday</h4>
-                      <h5>16 February</h5>
+                      <!-- <h5>16 February</h5> -->
                     </div>
                   </a>
                 </li>
@@ -415,33 +498,49 @@
                   <a class="nav-link" id="thursday-tab" data-toggle="tab" href="#thursday" role="tab" aria-controls="thursday">
                     <div class="item-text">
                       <h4>Thursday</h4>
-                      <h5>17 February</h5>
+                      <!-- <h5>17 February</h5> -->
                     </div>
                   </a>
                 </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" id="friday-tab" data-toggle="tab" href="#friday" role="tab" aria-controls="friday">
+                    <div class="item-text">
+                      <h4>Friday</h4>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="saturday-tab" data-toggle="tab" href="#saturday" role="tab" aria-controls="saturday">
+                    <div class="item-text">
+                      <h4>Saturday</h4>
+                    </div>
+                  </a>
+                </li> -->
               </ul>
             </div>
           </div>
           <div class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
             <div class="tab-content" id="myTabContent">
+              <!-- Monday -->
               <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
                 <div id="accordion">
                   <div class="card">
                     <div id="headingOne">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
+                          <img class="img-fluid" src="assets/img/speaker/erdos.jpeg" alt="">
                         </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time">10:10 - 11:00</span>
+                        <h4>CAS CS391 E3 - Discussion</h4>
+                        <h5 class="name">Dora Erdos</h5>
                       </div>
                     </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>This course is intended as the first to take for students interested in the aspects of computer science related to data analysis and data management. It specifically serves as a preparation including, but not limited, to the courses CS460, CS506, CS542 and CS565. Course topics will cover data collection, cleaning and  visualization. Data modeling and basics of data bases. Mathematical foundations of data science including  linear algebra, (multivariate) calculus and convex optimization. Topics in data mining, such as similarity and distance functions, clustering, ranking, networks. Introduction to machine learning. Prediction methods, e.g. regression and common measures.</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 233</a>
                         </div>
                       </div>
                     </div>
@@ -450,62 +549,65 @@
                     <div id="headingTwo">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
+                          <img class="img-fluid" src="assets/img/speaker/speaker.jpg" alt="">
                         </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>15 Free Productive Design Tools</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time">16:30 - 17:45</span>
+                        <h4>CAS CS506 A1 - Lecture</h4>
+                        <h5 class="name">Staff</h5>
                       </div>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>Covers practical skills in working with data and introduces a wide range of techniques that are commonly used in the analysis of data, such as clustering, classification, regression, and network analysis. Emphasizes hands-on application of methods via programming. Effective Fall 2019, this course fulfills a single unit in each of the following BU Hub areas: Research and Information Literacy, Teamwork/Collaboration.</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS B18</a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <!-- <div class="card">
                     <div id="headingThree">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="">
+                          <img class="img-fluid" src="picture" alt="">
                         </div>                     
                         <span class="time">10am - 12:30pm</span>
                         <h4>Getting Started With SketchApp</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h5 class="name">david</h5>
                       </div>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>description</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
+              <!-- Tuesday -->
               <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
                 <div id="accordion2">
                   <div class="card">
-                    <div id="headingOne1">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+                    <div id="headingOne2">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne1">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
+                          <img class="img-fluid" src="assets/img/speaker/goldberg.jpeg" alt="">
                         </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time">9:30 - 10:45</span>
+                        <h4>CAS CS558 A1 - Lecture</h4>
+                        <h5 class="name">Sharon Goldberg</h5>
                       </div>
                     </div>
-                    <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne1" data-parent="#accordion2">
+                    <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2" data-parent="#accordion2">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>Introduces basic principles and techniques of building secure information systems. Covers network security, web security, privacy, and basic cryptographic tools (symmetric and public key cryptography, encryption, key exchange, hashing and signatures). Broader social, legal and political aspects of security addressed.</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">Stone Science Building, STO B50</a>
                         </div>
                       </div>
                     </div>
@@ -514,42 +616,89 @@
                     <div id="headingTwo2">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
+                          <img class="img-fluid" src="assets/img/speaker/erdos.jpeg" alt="">
                         </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time">12:30 - 13:45</span>
+                        <h4>CAS CS391 E1 - Lecture</h4>
+                        <h5 class="name">Dora Erdos</h5>
                       </div>
                     </div>
                     <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordion2">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>This course is intended as the first to take for students interested in the aspects of computer science related to data analysis and data management. It specifically serves as a preparation including, but not limited, to the courses CS460, CS506, CS542 and CS565. Course topics will cover data collection, cleaning and  visualization. Data modeling and basics of data bases. Mathematical foundations of data science including  linear algebra, (multivariate) calculus and convex optimization. Topics in data mining, such as similarity and distance functions, clustering, ranking, networks. Introduction to machine learning. Prediction methods, e.g. regression and common measures.</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS B12</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Class 3 -->
+                  <div class="card">
+                    <div id="headingThree2">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/reyzin.jpeg" alt="">
+                        </div>                     
+                        <span class="time">15:30 - 16:45</span>
+                        <h4>CAS CS538 A1 - Lecture</h4>
+                        <h5 class="name">Leonid Reyzin</h5>
+                      </div>
+                    </div>
+                    <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordion2">
+                      <div class="card-body">
+                        <p>Basic Algorithms to guarantee confidentiality and authenticity of data. Definitions and proofs of security for practical constructions. Topics include perfectly secure encryption, pseudorandom generators, RSA and Elgamal encryption, Diffie-Hellman key agreement, RSA signatures, secret sharing, block and stream ciphers.</p>
+                        <div class="location">
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 216</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Class 4 -->
+                  <div class="card">
+                    <div id="headingFour2">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFour2" aria-expanded="false" aria-controls="collapseFour2">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/goldberg.jpeg" alt="">
+                        </div>                     
+                        <span class="time">17:00 - 17:50</span>
+                        <h4>CAS CS558 A5 - Lab</h4>
+                        <h5 class="name">Sharon Goldberg</h5>
+                      </div>
+                    </div>
+                    <div id="collapseFour2" class="collapse" aria-labelledby="headingFour2" data-parent="#accordion2">
+                      <div class="card-body">
+                        <p>desIntroduces basic principles and techniques of building secure information systems. Covers network security, web security, privacy, and basic cryptographic tools (symmetric and public key cryptography, encryption, key exchange, hashing and signatures). Broader social, legal and political aspects of security addressed.cription</p>
+                        <div class="location">
+                          <span>Location:</span>
+                          <a href="">Fenway Classroom Building, FCB 104</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- Wednesday -->
               <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
                 <div id="accordion3">
                   <div class="card">
                     <div id="headingOne3">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
+                          <img class="img-fluid" src="assets/img/speaker/reyzin.jpeg" alt="">
                         </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time">15:35 -  16:25</span>
+                        <h4>CAS CS538 A2 - Discussion</h4>
+                        <h5 class="name">Leonid Reyzin</h5>
                       </div>
                     </div>
-                    <div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordion3">
+                    <div id="collapseOne3" class="collapse" aria-labelledby="headingOne3" data-parent="#accordion3">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>Basic Algorithms to guarantee confidentiality and authenticity of data. Definitions and proofs of security for practical constructions. Topics include perfectly secure encryption, pseudorandom generators, RSA and Elgamal encryption, Diffie-Hellman key agreement, RSA signatures, secret sharing, block and stream ciphers.</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 227</a>
                         </div>
                       </div>
                     </div>
@@ -558,82 +707,86 @@
                     <div id="headingTwo3">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
+                          <img class="img-fluid" src="assets/img/speaker/speaker.jpg" alt="">
                         </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time">16:30 - 17:45</span>
+                        <h4>CAS CS506 A1 - Lecture</h4>
+                        <h5 class="name">Staff</h5>
                       </div>
                     </div>
                     <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordion3">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>Covers practical skills in working with data and introduces a wide range of techniques that are commonly used in the analysis of data, such as clustering, classification, regression, and network analysis. Emphasizes hands-on application of methods via programming. Effective Fall 2019, this course fulfills a single unit in each of the following BU Hub areas: Research and Information Literacy, Teamwork/Collaboration.</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS B18</a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <!-- <div class="card">
                     <div id="headingThree3">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="">
+                          <img class="img-fluid" src="picture" alt="">
                         </div>                     
                         <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h4>name</h4>
+                        <h5 class="name">david</h5>
                       </div>
                     </div>
                     <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordion3">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>description</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
+              <!-- Thursday -->
               <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
                 <div id="accordion4">
                   <div class="card">
-                    <div id="headingOne">
+                    <div id="headingOne4">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
+                          <img class="img-fluid" src="assets/img/speaker/goldberg.jpeg" alt="">
                         </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time">9:30 - 10:45</span>
+                        <h4>CAS CS558 A1 - Lecture</h4>
+                        <h5 class="name">Sharon Goldberg</h5>
                       </div>
                     </div>
-                    <div id="collapseOne4" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion4">
+                    <div id="collapseOne4" class="collapse" aria-labelledby="headingOne4" data-parent="#accordion4">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>Introduces basic principles and techniques of building secure information systems. Covers network security, web security, privacy, and basic cryptographic tools (symmetric and public key cryptography, encryption, key exchange, hashing and signatures). Broader social, legal and political aspects of security addressed.</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">Stone Science Building, STO B50</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="card">
-                    <div id="headingTwo">
+                    <div id="headingTwo4">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
+                          <img class="img-fluid" src="assets/img/speaker/speaker.jpg" alt="">
                         </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time">11:15 - 12:05</span>
+                        <h4>CAS CS506 A3 - Lab</h4>
+                        <h5 class="name">Staff</h5>
                       </div>
                     </div>
-                    <div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion4">
+                    <div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordion4">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>Covers practical skills in working with data and introduces a wide range of techniques that are commonly used in the analysis of data, such as clustering, classification, regression, and network analysis. Emphasizes hands-on application of methods via programming. Effective Fall 2019, this course fulfills a single unit in each of the following BU Hub areas: Research and Information Literacy, Teamwork/Collaboration.</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">Psychology Building, PSY 210</a>
                         </div>
                       </div>
                     </div>
@@ -642,88 +795,183 @@
                     <div id="headingThree4">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="">
+                          <img class="img-fluid" src="assets/img/speaker/erdos.jpeg" alt="">
                         </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time">12:30 - 13:45</span>
+                        <h4>CAS CS391 E1 - Lecture</h4>
+                        <h5 class="name">Dora Erdos</h5>
                       </div>
                     </div>
-                    <div id="collapseThree4" class="collapse" aria-labelledby="headingThree" data-parent="#accordion4">
+                    <div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordion4">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>This course is intended as the first to take for students interested in the aspects of computer science related to data analysis and data management. It specifically serves as a preparation including, but not limited, to the courses CS460, CS506, CS542 and CS565. Course topics will cover data collection, cleaning and  visualization. Data modeling and basics of data bases. Mathematical foundations of data science including  linear algebra, (multivariate) calculus and convex optimization. Topics in data mining, such as similarity and distance functions, clustering, ranking, networks. Introduction to machine learning. Prediction methods, e.g. regression and common measures.</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS B12</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingFour4">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/reyzin.jpeg" alt="">
+                        </div>                     
+                        <span class="time">15:30 - 16:45</span>
+                        <h4>CAS CS538 A1 - Lecture</h4>
+                        <h5 class="name">Leonid Reyzin</h5>
+                      </div>
+                    </div>
+                    <div id="collapseFour4" class="collapse" aria-labelledby="headingFour4" data-parent="#accordion4">
+                      <div class="card-body">
+                        <p>Basic Algorithms to guarantee confidentiality and authenticity of data. Definitions and proofs of security for practical constructions. Topics include perfectly secure encryption, pseudorandom generators, RSA and Elgamal encryption, Diffie-Hellman key agreement, RSA signatures, secret sharing, block and stream ciphers.</p>
+                        <div class="location">
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 216</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- Friday -->
               <div class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab">
-                <div id="accordion">
-                  <div class="card">
-                    <div id="headingOne">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <div id="accordion5">
+                  <!-- <div class="card">
+                    <div id="headingOne5">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne5" aria-expanded="false" aria-controls="collapseOne5">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
+                          <img class="img-fluid" src="picture" alt="">
                         </div>                     
                         <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h4>name</h4>
+                        <h5 class="name">david</h5>
                       </div>
                     </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div id="collapseOne5" class="collapse" aria-labelledby="headingOne5" data-parent="#accordion5">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>description</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 216</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="card">
-                    <div id="headingTwo">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div id="headingTwo5">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo5" aria-expanded="false" aria-controls="collapseTwo5">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
+                          <img class="img-fluid" src="picture" alt="">
                         </div>                     
                         <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h4>name</h4>
+                        <h5 class="name">david</h5>
                       </div>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div id="collapseTwo5" class="collapse" aria-labelledby="headingTwo5" data-parent="#accordion5">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>description</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 216</a>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="card">
-                    <div id="headingThree">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div id="headingThree5">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="">
+                          <img class="img-fluid" src="picture" alt="">
                         </div>                     
                         <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h4>name</h4>
+                        <h5 class="name">david</h5>
                       </div>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div id="collapseThree5" class="collapse" aria-labelledby="headingThree5" data-parent="#accordion5">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>description</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 216</a>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
+              <!-- Saturday -->
+              <div class="tab-pane fade" id="saturday" role="tabpanel" aria-labelledby="saturday-tab">
+                <div id="accordion6">
+                  <!-- <div class="card">
+                    <div id="headingOne6">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne6" aria-expanded="false" aria-controls="collapseOne6">
+                        <div class="images-box">
+                          <img class="img-fluid" src="picture" alt="">
+                        </div>                     
+                        <span class="time">10am - 12:30pm</span>
+                        <h4>name</h4>
+                        <h5 class="name">david</h5>
+                      </div>
+                    </div>
+                    <div id="collapseOne6" class="collapse" aria-labelledby="headingOne6" data-parent="#accordion6">
+                      <div class="card-body">
+                        <p>description</p>
+                        <div class="location">
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 216</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingTwo6">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo6" aria-expanded="false" aria-controls="collapseTwo6">
+                        <div class="images-box">
+                          <img class="img-fluid" src="picture" alt="">
+                        </div>                     
+                        <span class="time">10am - 12:30pm</span>
+                        <h4>name</h4>
+                        <h5 class="name">david</h5>
+                      </div>
+                    </div>
+                    <div id="collapseTwo6" class="collapse" aria-labelledby="headingTwo6" data-parent="#accordion6">
+                      <div class="card-body">
+                        <p>description</p>
+                        <div class="location">
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 216</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingThree6">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree6" aria-expanded="false" aria-controls="collapseThree6">
+                        <div class="images-box">
+                          <img class="img-fluid" src="picture" alt="">
+                        </div>                     
+                        <span class="time">10am - 12:30pm</span>
+                        <h4>name</h4>
+                        <h5 class="name">david</h5>
+                      </div>
+                    </div>
+                    <div id="collapseThree6" class="collapse" aria-labelledby="headingThree6" data-parent="#accordion6">
+                      <div class="card-body">
+                        <p>description</p>
+                        <div class="location">
+                          <span>Location:</span>
+                          <a href="">College of Arts and Sciences, CAS 216</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+              <!-- End -->
             </div>
           </div>
         </div>
@@ -994,6 +1242,57 @@
       </div>
     </section> -->
     <!-- Gallary Section End -->
+
+    <!-- Personal Section Start -->
+    <section id="personal" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Others</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="assets/img/about/img1.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Achievements</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <a class="btn btn-common btn-rm" href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+              <div class="about-item">
+                <img class="img-fluid" src="assets/img/about/img2.jpg" alt="">
+                <div class="about-text">
+                  <h3><a href="#">Experience</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                  <a class="btn btn-common btn-rm" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <div class="about-item">
+                <img class="img-fluid" src="assets/img/about/img3.jpg" alt="">
+                <div class="about-text">
+                  <h3><a href="#">Personal Life</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                  <a class="btn btn-common btn-rm" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Personal Section End -->
+
+    
+        
 
     <!-- Ask Question Section Start -->
     <section id="faq" class="section-padding">
@@ -1410,7 +1709,7 @@
                   <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone" required data-error="Please enter your Phone Number">
                   <textarea class="form-control" rows="4" id="message" name="message" placeholder="Message" required data-error="Please Write your message"></textarea>
                   <div class="form-submit">
-                      <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Send</button>
+                      <button type="submit" class="btn btn-common bot-remove-margin" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Send</button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div>
                     </div>
                 </form>
@@ -1425,29 +1724,29 @@
     <!-- Footer Section Start -->
     <footer class="footer-area section-padding">
       <div class="container">
-        <div class="row">
+        <div class="row footer-remove-margin">
           <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
             <h3><img src="assets/img/logo2.png" alt=""></h3>
           </div>
           <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
             <h3>QUICK LINKS</h3>
             <ul>
-              <li><a href="#">About Conference</a></li>
-              <li><a href="#">Our Speakers</a></li>
-              <li><a href="#">Event Shedule</a></li>
-              <li><a href="#">Latest News</a></li>
-              <li><a href="#">Event Photo Gallery</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#countdown">Countdown</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#schedules">Schedule</a></li>
+              <li><a href="#faq">FAQ</a></li>
             </ul>
           </div>
           <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
-            <h3>RECENT POSTS</h3>
+            <h3>PERSONAL LIFE</h3>
             <ul class="image-list">
               <li>
                 <figure class="overlay">
                   <img class="img-fluid" src="assets/img/art/a1.jpg" alt="">
                 </figure>
                 <div class="post-content">
-                  <h6 class="post-title"> <a href="blog-single.html">Lorem ipsm dolor sumit.</a> </h6>
+                  <h6 class="post-title"> <a href="blog-single.html">Personal Life</a> </h6>
                   <div class="meta"><span class="date">October 12, 2018</span></div>
                 </div>
               </li>
@@ -1463,26 +1762,20 @@
             </ul>
           </div>
           <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
-            <h3>SUBSCRIBE US</h3>
-            <div class="widget">
-              <div class="newsletter-wrapper">
-                <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
-                  <div class="form-group is-empty">
-                    <input type="email" value="" name="Email" class="form-control" id="EMAIL" placeholder="Your email" required="">
-                    <button type="submit" name="subscribe" id="subscribes" class="btn btn-common sub-btn"><i class="lni-pointer"></i></button>
-                    <div class="clearfix"></div>
-                  </div>
-                </form>
-              </div>
-            </div>
             <!-- /.widget -->
             <div class="widget">
-              <h5 class="widget-title">FOLLOW US ON</h5>
-              <ul class="footer-social">
-                <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-                <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
-                <li><a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a></li>
-                <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+              <h5 class="widget-title top-remove-margin">FOLLOW ME</h5>
+              <ul class="footer-social icon-margin">
+                <li><a class="linkedin" href="https://www.linkedin.com/in/kevinsujanto/" target="_blank"><i class="lni-linkedin"></i></a></li>
+                <li><a class="github" href="https://github.com/kevinsujanto" target="_blank"><i class="lni-github"></i></a></li>
+                <li><a class="whatsapp" href="https://wa.me/14256150132" target="_blank"><i class="lni-whatsapp" target="_blank"></i></a></li>
+                <li><a class="facebook" href="https://www.facebook.com/kevinsujanto" target="_blank"><i class="lni-facebook-filled"></i></a></li>
+              </ul>
+              <ul class="footer-social icon-margin">
+                <li><a class="paypal" href="data/paypal.png" target="_blank" height="500" width="500"><i class="lni-paypal"></i></a></li>
+                <li><a class="venmo" href="data/venmo.png" target="_blank"><i class="lni-vimeo"></i></a></li>
+                <li><a class="snapchat" href="data/snapcodeBitmoji.svg" target="_blank"><i class="lni-snapchat"></i></a></li>
+                <li><a class="instagram" href="https://www.instagram.com/kevinsujanto/" target="_blank"><i class="lni-instagram-filled"></i></a></li>
               </ul>
             </div>
           </div>

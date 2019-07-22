@@ -759,6 +759,9 @@
 .lni-slice:before {
   content: "\e9f4";
 }
+.lni-snapchat:before {
+  content: "\ea99"
+}
 .lni-sort-alpha-asc:before {
   content: "\e9f5";
 }
