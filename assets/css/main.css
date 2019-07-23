@@ -27,6 +27,10 @@ body {
   margin-top: 50px;
 }
 
+.top-margin-special {
+  margin-top: 30px;
+}
+
 .bot-remove-margin {
   margin-bottom: -50px;
 }
@@ -247,11 +251,17 @@ ul li, ol li {
 }
 
 .btn-tes {
-  background-color: gray;
+  background-color: #09c002;
   width: 40%;
   position: relative;
   text-align: center;
   z-index: 1;
+  margin-bottom: 5px;
+}
+
+.btn-test:hover {
+  background-color: #2d950e;
+  color: #fff;
 }
 
 
@@ -519,6 +529,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-animation-delay: -0.1s;
   animation-delay: -0.1s;
 }
+
+/* Modal Tester */
+
+/* */
 
 @-webkit-keyframes sk-circleBounceDelay {
   0%, 80%, 100% {
@@ -1383,6 +1397,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: relative;
 }
 
+.accordion .header-title:hover {
+  background-color: lightgreen;
+}
+
 .accordion .header-title:after {
   font-family: "LineIcons";
   content: "\e93a";
@@ -1406,7 +1424,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .accordion .card-header i {
-  color: #09c002;
+  color: #09c002; /* Here */
+  background-color: #f3f4f3;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -1954,6 +1973,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   border-radius: 0px;
   background-image: none;
   background-clip: padding-box;
+}
+
+.container-form .form-wrapper .form-control:hover {
+  background: #f7f7f7;
 }
 
 .container-form .form-wrapper .form-control:focus {
