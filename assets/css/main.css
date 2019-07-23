@@ -19,6 +19,22 @@ body {
   overflow-x: hidden;
 }
 
+.book-padding {
+  padding: 5px;
+}
+
+.first-book-padding {
+  margin-left: 2%;
+}
+
+.left-margin {
+   margin-left: -20px;
+}
+
+.right-margin {
+  margin-right: -20px;
+}
+
 .bot-margin {
   margin-bottom: 50px;
 }
@@ -253,6 +269,7 @@ ul li, ol li {
 .btn-tes {
   background-color: #09c002;
   width: 40%;
+  height: 75px;
   position: relative;
   text-align: center;
   z-index: 1;
@@ -264,11 +281,55 @@ ul li, ol li {
   color: #fff;
 }
 
+.btn-tes2 {
+  background-color: #09c002;
+  width: 85%;
+  height: 75px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 5px;
+}
+
+.btn-tes2:hover {
+  background-color: #2d950e;
+  color: #fff;
+}
 
 .btn-common {
   background-color: #09c002;
   position: relative;
   z-index: 1;
+}
+
+.btn-book {
+  background-color: #09c002;
+  position: relative;
+  z-index: 1;
+  width: 28%;
+  margin-left: 4%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.btn-book:hover {
+  background-color: #2d950e;
+  color: #fff;
+}
+
+.btn-muri {
+  background-color: #09c002;
+  position: relative;
+  z-index: 1;
+  width: 44%;
+  margin-left: 4%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.btn-muri:hover {
+  background-color: #2d950e;
+  color: #fff;
 }
 
 .btn-common-countdown {
@@ -309,7 +370,15 @@ ul li, ol li {
   margin-left: 5%;
   text-transform: uppercase;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.btn-test2 {
+  padding: 12px 34px;
+  margin-left: 5%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
 }
 
 .btn-rm {
@@ -1066,7 +1135,7 @@ a.back-to-top:hover, a.back-to-top:focus {
         background-color: #EEE;
         padding: 2px;
         border-radius: 15px;
-        margin-bottom: 5px;
+        margin-bottom: 4px;
         font-size: 14px;
         color: #FFF;
         font-weight: bold;
@@ -1112,8 +1181,140 @@ a.back-to-top:hover, a.back-to-top:focus {
 ===========================*/
 
 
+
+/*===========================
+        5.Gallery START
+===========================*/
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: scroll; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% 5% 2% 5%; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+  height: 90%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*===========================
+        5.Modal End
+===========================*/
+
+/* Gallery Section */
+#gallery {
+  background: #fff;
+  position: relative;
+  margin-top: -60px;
+  margin-bottom: 100px;
+}
+
+#gallery ul li, ol li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+#gallery ul li .nested-list {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+#gallery .gallery-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#gallery .greenbox .gallery-box .overlay-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding-top: 35%;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  /* background: rgba(211, 211, 211, 0.4); */
+}
+
+#gallery .gallery-box .overlay-box i {
+  background: #ffffff;
+  color: #09c002;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  border-radius: 50%;
+  transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+#gallery .gallery-box:hover .overlay-box {
+  background: rgba(144, 238, 144, 0.4);
+  transform: scale(1, 1);
+  transition: all 500ms ease;
+}
+
+#gallery .gallery-box:hover .overlay-box i {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+}
+
+#gallery .text-center {
+  text-align: center;
+  background-color: #dddddd;
+}
+
+
+/*===========================
+        5.Gallery END 
+===========================*/
+
+
 .about-item {
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
@@ -1517,64 +1718,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #09c002;
 }
 
-/* Gallery Section */
-#gallery {
-  background: #f3f4f3;
-  position: relative;
-}
 
-#gallery .gallery-box {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-#gallery .gallery-box .overlay-box {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  padding-top: 35%;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
-#gallery .gallery-box .overlay-box i {
-  background: #ffffff;
-  color: #09c002;
-  font-size: 30px;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  line-height: 50px;
-  border-radius: 50%;
-  transform: scale(0, 0);
-  -webkit-transform: scale(0, 0);
-  -moz-transform: scale(0, 0);
-  -ms-transform: scale(0, 0);
-  -o-transform: scale(0, 0);
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
-#gallery .gallery-box:hover .overlay-box {
-  background: rgba(233, 30, 99, 0.7);
-  transform: scale(1, 1);
-  transition: all 500ms ease;
-}
-
-#gallery .gallery-box:hover .overlay-box i {
-  -webkit-transform: scale(1, 1);
-  -moz-transform: scale(1, 1);
-  -ms-transform: scale(1, 1);
-  -o-transform: scale(1, 1);
-}
 
 /* Team Item */
 .team-item:hover {
@@ -1951,7 +2095,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .container-form .form-wrapper {
   background-color: white;
-  padding: 56px;
+  padding: 40px 40px 60px 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -1976,7 +2120,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .container-form .form-wrapper .form-control:hover {
-  background: #f7f7f7;
+  background: #d4d4d4;
 }
 
 .container-form .form-wrapper .form-control:focus {
