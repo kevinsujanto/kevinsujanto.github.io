@@ -461,8 +461,8 @@
   }
   #main-slide .carousel-item img {
     /* position: relative; */
-    min-height: 480px;
-    min-width: 480;
+    min-height: 600px;
+    min-width: 480px;
     margin-left: auto;
     margin-right: auto;
     background-position: center center;
@@ -516,7 +516,7 @@
   .slicknav_menu .slicknav_icon-bar {
     background: #09c002;
     margin-top: -30px;
-    margin-right: -30px;
+    margin-right: -40px;
   }
 
   .slicknav_btn {
