@@ -248,6 +248,14 @@
     border-color: transparent; /* Menu Border */
     margin-right: 20px;
   }
+  .slicknav_nav a:hover, .slicknav_nav .active {
+    color: #09c002;
+    background: #f5f5f5;
+  }
+  .slicknav_nav .dropdown li a.active {
+    background: #f5f5f5;
+    color: #09c002;
+  }
 }
 
 /* mobile or only mobile */
@@ -526,7 +534,14 @@
     margin-top: -30px;
     margin-right: -40px;
   }
-
+  .slicknav_nav a:hover, .slicknav_nav .active {
+    color: #09c002;
+    background: #f5f5f5;
+  }
+  .slicknav_nav .dropdown li a.active {
+    background: #f5f5f5;
+    color: #09c002;
+  }
   .slicknav_btn {
     border-color: transparent; /* Menu Border */
     margin-right: 20px;
