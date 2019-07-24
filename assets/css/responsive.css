@@ -163,13 +163,25 @@
   }
   #main-slide .carousel-caption {
     top: 22%;
+    
+  }
+  #main-slide .carousel-item img {
+    /* position: relative; */
+    min-height: 767px;
+    min-width: 767px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 14px;
-    margin-top: 5px;
+    font-size: 35px;
+    margin-top: 20%;
   }
   #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
+    font-size: 20px;
   }
   #main-slide .carousel-indicators {
     display: none;

@@ -20,11 +20,20 @@ body {
 }
 
 .book-padding {
-  padding: 5px;
+  padding: 1%;
 }
 
 .first-book-padding {
   margin-left: 2%;
+}
+
+.muri-padding {
+  padding: 1%;
+  margin-right: 2%;
+}
+
+.first-muri-padding {
+  margin-left: 3%;
 }
 
 .left-margin {
@@ -934,11 +943,13 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .slicknav_btn {
-  border-color: #09c002;
+  border-color: #09c002; /* Menu Border */
 }
 
 .slicknav_menu .slicknav_icon-bar {
   background: #09c002;
+  margin-top: -30px;
+  margin-right: -30px;
 }
 
 /* only small tablets */
@@ -972,11 +983,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .slicknav_menu {
-  display: none;
+  display: block;
 }
 
-
 @media screen and (max-width: 768px) {
+  /* Change Home Page */
   .navbar-header {
     width: 100%;
   }
@@ -988,11 +999,13 @@ a.back-to-top:hover, a.back-to-top:focus {
   .navbar-brand img {
     width: 75%;
   }
+  
   #mobile-menu {
     display: none;
   }
   .slicknav_menu {
     display: block;
+    border: none;
   }
   .slicknav_nav .active a {
     background: #09c002;
@@ -2510,7 +2523,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .image-list li .overlay {
   float: left;
   width: 70px;
-  height: 60px;
+  height: 70px;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -2822,7 +2835,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #main-slide .carousel-item .carousel-caption .heading {
-  font-size: 48px;
+  font-size: 58px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
