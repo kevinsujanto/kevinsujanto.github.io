@@ -3,15 +3,29 @@
   #main-slide .carousel-caption {
     top: 32%;
   }
+  #main-slide .carousel-item img {
+    /* position: relative; */
+    min-height: 991px;
+    min-width: 1199px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .carousel-indicators {
     font-size: 14px;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
+    font-size: 50px;
     margin-top: 5px;
   }
-  #main-slide .carousel-item .carousel-caption p {
+  #about .about-content p {
     font-size: 13px;
+  }
+  #main-slide .carousel-item .carousel-caption p {
+    font-size: 20px;
   }
   #hero-area .contents .head-title {
     font-size: 40px;
@@ -103,14 +117,25 @@
   #main-slide .carousel-caption {
     top: 32%;
   }
+  #main-slide .carousel-item img {
+    /* position: relative; */
+    min-height: 991px;
+    min-width: 991px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
+    font-size: 40px;
   }
   #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
+    font-size: 20px;
   }
   .countdown-timer .heading-count h2 {
-    font-size: 25px;
+    font-size: 35px;
   }
   .schedule .schedule-tab-title .nav-tabs .nav-link {
     width: 150px;
@@ -124,8 +149,31 @@
   .about-item {
     margin-bottom: 30px;
   }
+  .skill-bar {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skill-bar h1 {
+    margin-top: 30px;
+    text-align: center;
+  }
   .accordion .header-title {
     font-size: 12px;
+  }
+  #gallery .btn {
+    font-size: 75%;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    display: inline-block;
   }
   #pricing .price-block-wrapper .pricing-list {
     padding: 10px 60px 10px 45px;
@@ -153,6 +201,39 @@
   }
   .footer-area h3 {
     margin-top: 30px;
+  }
+  .footer-area h3 img {
+    margin-top: -200px;
+    margin-bottom: -100px;
+  }
+  .footer-area .quick-links {
+    margin-top: -25px;
+    margin-bottom: -10px;
+  }
+  .footer-area ul {
+    margin-bottom: 20px;
+  }
+  .footer-area ul li {
+    padding: 0px 10px 0px 0px;
+    display: inline;
+  }
+  .footer-area ul li a {
+    font-size: 14px;
+  }
+  .footer-area .personal-life {
+    margin-top: 20px;
+  }
+  .footer-area .blog-margin {
+    margin-bottom: -20px;
+  }
+  .footer-area .image-text {
+    margin-bottom: -30px;
+  }
+  .footer-area .follow-me {
+    margin-top: 10px;
+  }
+  .footer-area .widget {
+    margin-bottom: 40px;
   }
   .btn-book {
     background-color: #09c002;
@@ -219,8 +300,17 @@
   .schedule .card-body {
     padding: 15px;
   }
+  .schedule .schedule-tab-title {
+    margin-bottom: 20px;
+  }
   .schedule .schedule-tab-title .nav-tabs .nav-link {
-    width: 288px;
+    width: 227.5px;
+  }
+  .schedule .schedule-tab-content {
+    margin-bottom: 80px;
+  }
+  #faq .first-row-faq {
+    margin-bottom: -100px;
   }
   .accordion .header-title {
     font-size: 11px;
@@ -252,7 +342,9 @@
     position: inherit;
   }
   .container-form .form-wrapper {
-    padding: 20px;
+    background-color: white;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   }
   .contact-item {
     margin-bottom: 40px;
@@ -265,6 +357,39 @@
   }
   .footer-area h3 {
     margin-top: 30px;
+  }
+  .footer-area h3 img {
+    margin-top: -200px;
+    margin-bottom: -100px;
+  }
+  .footer-area .quick-links {
+    margin-top: -25px;
+    margin-bottom: -10px;
+  }
+  .footer-area ul {
+    margin-bottom: 20px;
+  }
+  .footer-area ul li {
+    padding: 0px 10px 0px 0px;
+    display: inline;
+  }
+  .footer-area ul li a {
+    font-size: 14px;
+  }
+  .footer-area .personal-life {
+    margin-top: 20px;
+  }
+  .footer-area .blog-margin {
+    margin-bottom: -20px;
+  }
+  .footer-area .image-text {
+    margin-bottom: -30px;
+  }
+  .footer-area .follow-me {
+    margin-top: 10px;
+  }
+  .footer-area .widget {
+    margin-bottom: 40px;
   }
   .padding-none:nth-child(1) {
     border-bottom: 1px solid #ddd;
