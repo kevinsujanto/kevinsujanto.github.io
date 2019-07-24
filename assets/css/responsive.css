@@ -528,7 +528,18 @@
     padding: 10px 14px;
     font-size: 13px;
   }
-
+  .dummy-list {
+    background: #fff;
+    color: #fff;
+  }
+  .dummy-list a:hover, .dummy-list .active {
+    color: #fff;
+    background: #fff;
+  }
+  .dummy-list .dropdown li a.active {
+    background: #fff;
+    color: #fff;
+  }
   .slicknav_menu .slicknav_icon-bar {
     background: #09c002;
     margin-top: -30px;
@@ -546,6 +557,7 @@
     border-color: transparent; /* Menu Border */
     margin-right: 20px;
   }
+  
 
   .schedule .schedule-tab-title .nav-tabs .nav-link {
     width: 184.5px;

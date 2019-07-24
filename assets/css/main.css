@@ -1012,20 +1012,19 @@ a.back-to-top:hover, a.back-to-top:focus {
     display: block;
     border: none;
   }
-  .slicknav_nav .active a {
-    background: #09c002;
+  .dummy-list {
+    background: #fff;
     color: #fff;
   }
-  .slicknav_nav a:hover, .slicknav_nav .active {
-    color: #09c002;
-    background: #f5f5f5;
+  .dummy-list a:hover, .dummy-list .active {
+    color: #fff;
+    background: #fff;
   }
-  .slicknav_nav .dropdown li a.active {
-    background: #f5f5f5;
-    color: #09c002;
+  .dummy-list .dropdown li a.active {
+    background: #fff;
+    color: #fff;
   }
 }
-
 /*===========================
         3.ABOUT css 
 ===========================*/
@@ -2359,7 +2358,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .footer-area .footer-social li .venmo {
   color: white;
-  background: #6bd2fb;
+  background: #3d95ce;
   width: 35px;
   height: 35px;
   line-height: 35px;
