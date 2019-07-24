@@ -244,6 +244,10 @@
     margin-bottom: 5px;
     margin-top: 5px;
   }
+  .slicknav_btn {
+    border-color: transparent; /* Menu Border */
+    margin-right: 20px;
+  }
 }
 
 /* mobile or only mobile */
@@ -438,6 +442,10 @@
     margin-left: 3.5%;
     padding: 1% 0%;
   }
+  .slicknav_btn {
+    border-color: transparent; /* Menu Border */
+    margin-right: 20px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -521,7 +529,7 @@
 
   .slicknav_btn {
     border-color: transparent; /* Menu Border */
-    margin-right: 40px;
+    margin-right: 20px;
   }
 
   .schedule .schedule-tab-title .nav-tabs .nav-link {
