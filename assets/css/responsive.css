@@ -443,18 +443,18 @@
 @media (min-width: 320px) and (max-width: 480px) {
   #main-slide .carousel-item .carousel-caption .heading {
     letter-spacing: 0;
-    margin-top: 10%;
+    margin-top: 0%;
   }
   #main-slide .carousel-item .carousel-caption p {
     font-size: 17px;
     margin-bottom: 20px;
   }
   #main-slide .carousel-caption .btn {
-    margin: 0;
+    margin-bottom: 0px;
   }
   #main-slide .btn {
     padding: 15px 21px;
-    font-size: 13px;
+    font-size: 13px
   }
   #main-slide .carousel-indicators {
     display: none;
@@ -483,7 +483,7 @@
     z-index: 1;
     margin-bottom: 5px;
     padding: auto;
-    font-size: 14px;
+    font-size: 13px;
   }
   #about .btn-tes2 {
     background-color: #09c002;
@@ -499,6 +499,9 @@
   #about .title-sub {
     font-size: 24px;
   }
+  #gallery .mini-margin {
+    margin-top: -10px;
+  }
   .contact-map .container-form {
     width: 350px;
   }
@@ -509,9 +512,22 @@
     padding: 10px 14px;
     font-size: 13px;
   }
+
   .slicknav_menu .slicknav_icon-bar {
     background: #09c002;
     margin-top: -30px;
     margin-right: -30px;
+  }
+
+  .slicknav_btn {
+    border-color: #09c002; /* Menu Border */
+    margin-right: 40px;
+  }
+
+  .schedule .schedule-tab-title .nav-tabs .nav-link {
+    width: 184.5px;
+  }
+  .schedule .card-header h4 {
+    font-size: 14px;
   }
 }
