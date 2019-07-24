@@ -944,12 +944,13 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .slicknav_btn {
   border-color: #09c002; /* Menu Border */
+  margin-right: 20px;
 }
 
 .slicknav_menu .slicknav_icon-bar {
   background: #09c002;
   margin-top: -30px;
-  margin-right: -40px;
+  margin-right: -30px;
 }
 
 /* only small tablets */
