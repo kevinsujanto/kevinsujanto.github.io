@@ -520,7 +520,7 @@
   }
 
   .slicknav_btn {
-    border-color: #09c002; /* Menu Border */
+    border-color: transparent; /* Menu Border */
     margin-right: 40px;
   }
 
