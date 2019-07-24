@@ -93,6 +93,9 @@
   .footer-area h3 {
     margin-top: 30px;
   }
+  .slicknav_menu {
+    display: block;
+  }
 }
 
 /* only small tablets */
@@ -150,6 +153,15 @@
   }
   .footer-area h3 {
     margin-top: 30px;
+  }
+  .btn-book {
+    background-color: #09c002;
+    position: relative;
+    z-index: 1;
+    width: 28%;
+    margin-left: 4%;
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
 }
 
@@ -263,6 +275,44 @@
   .padding-none:nth-child(5) {
     border-bottom: 1px solid #ddd;
   }
+  .slicknav_menu .slicknav_icon-bar {
+    background: #09c002;
+    margin-top: -30px;
+    margin-right: -30px;
+  }
+  .btn-tes2 {
+    margin-bottom: 40px;
+  }
+  .skill-bar {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skill-bar h1 {
+    text-align: center;
+  }
+  #gallery .mobile-margin {
+    margin-top: 30px;
+  }
+  #gallery .btn {
+    font-size: 75%;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    display: inline-block;
+  }
+  #gallery .mobile-muri-size {
+    width: 45%;
+    margin-left: 3.5%;
+    padding: 1% 0%;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -290,5 +340,10 @@
   .btn {
     padding: 5px 7px;
     font-size: 13px;
+  }
+  .slicknav_menu .slicknav_icon-bar {
+    background: #09c002;
+    margin-top: -30px;
+    margin-right: -50px;
   }
 }

@@ -961,6 +961,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   .navbar-header {
     width: 100%;
   }
+
+  .slicknav_menu {
+    display: block;
+  }
 }
 
 .navbar-brand {
@@ -983,7 +987,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .slicknav_menu {
-  display: block;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
