@@ -1294,7 +1294,34 @@
                 </div>
                 <div id="questionOne" class="collapse" aria-labelledby="headingOne" data-parent="#question">
                   <div class="card-body">
-                    I'm currently 21 years old.
+                      
+                      <p id="js-age"></p>
+                      <script>
+                        function getAge() 
+                        {
+                          var today = new Date();
+                          var birthDate = new Date("12/02/1998");
+                          var age = today.getFullYear() - birthDate.getFullYear();
+                          var m = today.getMonth() - birthDate.getMonth();
+                          if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) 
+                          {
+                            age = age - 1;
+                          }
+                          return age;
+                        }
+                      </script>
+                      I'm currently <script>document.write(getAge());</script> years old.
+                      <script>
+                        function isBirthday()
+                        {
+                          var today = new Date();
+                          var birthDate = new Date("12/02/1998");
+                          if (today.getMonth() === birthDate.getMonth() && today.getDate() === birthDate.getDate())
+                            return "Today is my Birthday";
+                          return "";
+                        }
+                      </script>
+                      <br /><script>document.write(isBirthday())</script>
                   </div>
                 </div>
               </div>
@@ -1809,7 +1836,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
     <script src="assets/js/javascript.js"></script>
-    <script src="assets/js/javascript2.js"></script>
     <script src="assets/js/contact-form-script.min.js"></script>
     <script src="assets/js/map.js"></script>
     <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
