@@ -316,7 +316,7 @@
     margin-bottom: 20px;
   }
   .schedule .schedule-tab-title .nav-tabs .nav-link {
-    width: 33.2vw;
+    width: 227.5px;
   }
   .schedule .schedule-tab-content {
     margin-bottom: 80px;
@@ -564,5 +564,16 @@
   }
   .schedule .card-header h4 {
     font-size: 14px;
+  }
+}
+@media (min-width: 414px) and (max-width: 414px) {
+  .schedule .schedule-tab-title .nav-tabs .nav-link {
+    width: 192px; 
+  }
+}
+
+@media (min-width: 375px) and (max-width: 375px) {
+  .schedule .schedule-tab-title .nav-tabs .nav-link {
+    width: 172.5px; 
   }
 }
