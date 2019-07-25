@@ -1012,18 +1012,6 @@ a.back-to-top:hover, a.back-to-top:focus {
     display: block;
     border: none;
   }
-  .dummy-list {
-    background: #fff;
-    color: #fff;
-  }
-  .dummy-list a:hover, .dummy-list .active {
-    color: #fff;
-    background: #fff;
-  }
-  .dummy-list .dropdown li a.active {
-    background: #fff;
-    color: #fff;
-  }
 }
 /*===========================
         3.ABOUT css 
