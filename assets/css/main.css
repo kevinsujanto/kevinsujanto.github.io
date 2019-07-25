@@ -355,7 +355,7 @@ ul li, ol li {
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
-}
+} /* Good Until Here! */
 
 .btn-border {
   color: #fff;
@@ -372,6 +372,22 @@ ul li, ol li {
   padding: 12px 34px;
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.btn-test {
+  padding: 12px 34px;
+  margin-left: 5%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn-test2 {
+  padding: 12px 34px;
+  margin-left: 5%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
 }
 
 .btn-rm {
@@ -722,6 +738,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  margin-top: 10px;
 }
 
 .navbar-brand img {
@@ -732,7 +749,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #fff;
   z-index: 999999;
   top: 0px !important;
-  min-height: 58px;
+  min-height: 57px;
+  max-height: 57px;
   box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -740,7 +758,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  background: #fff !important;
+  background: #ddffe3 !important; /* Change NavBar Color */
 }
 
 .top-nav-collapse .navbar-brand {
