@@ -374,6 +374,22 @@ ul li, ol li {
   font-size: 14px;
 }
 
+.btn-test {
+  padding: 12px 34px;
+  margin-left: 5%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn-test2 {
+  padding: 12px 34px;
+  margin-left: 5%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+} /* Test Until Here */
+
 .btn-rm {
   padding: 7px 10px;
   text-transform: capitalize;
