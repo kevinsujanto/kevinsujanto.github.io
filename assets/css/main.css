@@ -19,6 +19,63 @@ body {
   overflow-x: hidden;
 }
 
+.book-padding {
+  padding: 1%;
+}
+
+.first-book-padding {
+  margin-left: 2%;
+}
+
+.muri-padding {
+  padding: 1%;
+  margin-right: 2%;
+}
+
+.first-muri-padding {
+  margin-left: 3%;
+}
+
+.left-margin {
+   margin-left: -20px;
+}
+
+.right-margin {
+  margin-right: -20px;
+}
+
+.bot-margin {
+  margin-bottom: 50px;
+}
+
+.top-margin {
+  margin-top: 50px;
+}
+
+.top-margin-special {
+  margin-top: 30px;
+}
+
+.bot-remove-margin {
+  margin-bottom: -50px;
+}
+
+.footer-remove-margin {
+  margin-bottom: -30px;
+}
+
+.top-remove-margin {
+  margin-top: -15px;
+}
+
+.icon-margin {
+  margin-bottom: 15px;
+} 
+
+.icon-remove-margin {
+  margin-top: -15px;
+}
+
 h1, h2, h3, h4 {
   font-size: 36px;
   font-weight: 700;
