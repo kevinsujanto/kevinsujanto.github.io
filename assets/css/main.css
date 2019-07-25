@@ -738,6 +738,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  margin-top: 10px;
 }
 
 .navbar-brand img {
@@ -756,7 +757,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  background: #fff !important;
+  background: #ddffe3 !important;
 }
 
 .top-nav-collapse .navbar-brand {
