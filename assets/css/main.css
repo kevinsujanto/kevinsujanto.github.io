@@ -170,7 +170,7 @@ ul li, ol li {
   content: '';
   left: 15px;
   bottom: 8px;
-  width: 48px;
+  width: 64px;
   height: 1px;
   margin-top: -40px;
   background-color: #09c002;
@@ -181,7 +181,7 @@ ul li, ol li {
   content: '';
   left: 0px;
   bottom: 2px;
-  width: 48px;
+  width: 64px;
   height: 1px;
   background-color: #09c002;
 }
@@ -351,7 +351,7 @@ ul li, ol li {
 .btn-common:hover {
   color: #fff;
   background: #2d950e;
-  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 22px rgba(7, 219, 102, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
