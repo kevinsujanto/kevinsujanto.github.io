@@ -274,7 +274,7 @@ ul li, ol li {
   background-color: #09c002;
   position: relative;
   z-index: 1;
-  width: 50px;
+  width: 100px;
   margin-left: 0.5%;
   margin-right: 0.5%;
   margin-bottom: 5px;
@@ -290,7 +290,7 @@ ul li, ol li {
   background-color: #09c002;
   position: relative;
   z-index: 1;
-  width: 100px;
+  width: 150px;
   margin-left: 0%;
   margin-bottom: 0px;
   margin-top: 0px;
