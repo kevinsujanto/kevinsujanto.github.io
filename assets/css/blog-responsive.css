@@ -1,0 +1,589 @@
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #main-slide .carousel-caption {
+      top: 32%;
+    }
+    #main-slide .carousel-item img {
+      /* position: relative; */
+      min-height: 991px;
+      min-width: 1199px;
+      margin-left: auto;
+      margin-right: auto;
+      background-position: center center;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .carousel-indicators {
+      font-size: 14px;
+    }
+    #main-slide .carousel-item .carousel-caption .heading {
+      font-size: 50px;
+      margin-top: 5px;
+    }
+    #about .about-content p {
+      font-size: 13px;
+    }
+    #main-slide .carousel-item .carousel-caption p {
+      font-size: 20px;
+    }
+    #hero-area .contents .head-title {
+      font-size: 40px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding: 0 10px;
+    }
+    .counter-section .counter p {
+      font-size: 14px;
+    }
+    .schedule .schedule-tab-title .nav-tabs .nav-link {
+      width: 210px;
+    }
+    #pricing .price-block-wrapper .pricing-list {
+      padding: 10px 35px 10px 45px;
+    }
+    #sponsors .spnsors-logo img {
+      width: 80%;
+    }
+  }
+  
+  /* tablets */
+  @media (max-width: 991px) {
+    #main-slide .carousel-caption {
+      top: 32%;
+    }
+    #main-slide .carousel-item .carousel-caption .heading {
+      font-size: 20px;
+    }
+    #main-slide .carousel-item .carousel-caption p {
+      font-size: 13px;
+    }
+    .page-title-section {
+      padding: 40px 0;
+    }
+    .section-titile-bg {
+      display: none;
+    }
+    .section-title {
+      position: relative;
+      margin-bottom: 10px;
+    }
+    .about-item {
+      margin-bottom: 30px;
+    }
+    .accordion .header-title {
+      font-size: 12px;
+    }
+    .schedule .schedule-tab-title .nav-tabs .nav-link {
+      width: 150px;
+    }
+    .schedule .card-header h4 {
+      font-size: 14px;
+    }
+    #pricing .price-block-wrapper .pricing-list {
+      padding: 10px 35px 10px 45px;
+    }
+    #sponsors .spnsors-logo img {
+      width: 80%;
+    }
+    .padding-none:nth-child(1) {
+      border-left: none;
+    }
+    .padding-none:nth-child(3) {
+      border-left: none;
+    }
+    .padding-none:nth-child(4) {
+      border-bottom: none;
+      border-left: 1px solid #ddd;
+    }
+    .padding-none:nth-child(5) {
+      border-bottom: none;
+      border-left: none;
+    }
+    .padding-none:nth-child(6) {
+      border-top: 1px solid #ddd;
+      border-bottom: none;
+    }
+    .footer-area h3 {
+      margin-top: 30px;
+    }
+    .slicknav_menu {
+      display: block;
+    }
+  }
+  
+  /* only small tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+    #main-slide .carousel-caption {
+      top: 32%;
+    }
+    #main-slide .carousel-item img {
+      /* position: relative; */
+      min-height: 991px;
+      min-width: 991px;
+      margin-left: auto;
+      margin-right: auto;
+      background-position: center center;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #main-slide .carousel-item .carousel-caption .heading {
+      font-size: 40px;
+    }
+    #main-slide .carousel-item .carousel-caption p {
+      font-size: 20px;
+    }
+    .countdown-timer .heading-count h2 {
+      font-size: 35px;
+    }
+    .schedule .schedule-tab-title .nav-tabs .nav-link {
+      width: 150px;
+    }
+    .schedule .card-header h4 {
+      font-size: 14px;
+    }
+    #pricing .price-block-wrapper .pricing-list {
+      padding: 10px 35px 10px 60px;
+    }
+    .about-item {
+      margin-bottom: 30px;
+    }
+    .skill-bar {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .skill-bar h1 {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .accordion .header-title {
+      font-size: 12px;
+    }
+    #gallery .btn {
+      font-size: 75%;
+      padding: 6px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 400;
+      color: #fff;
+      text-transform: uppercase;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      display: inline-block;
+    }
+    #pricing .price-block-wrapper .pricing-list {
+      padding: 10px 60px 10px 45px;
+    }
+    #sponsors .spnsors-logo {
+      padding: 30px;
+    }
+    .padding-none:nth-child(1) {
+      border-left: none;
+    }
+    .padding-none:nth-child(3) {
+      border-left: none;
+    }
+    .padding-none:nth-child(4) {
+      border-bottom: none;
+      border-left: 1px solid #ddd;
+    }
+    .padding-none:nth-child(5) {
+      border-bottom: none;
+      border-left: none;
+    }
+    .padding-none:nth-child(6) {
+      border-top: 1px solid #ddd;
+      border-bottom: none;
+    }
+    .footer-area h3 {
+      margin-top: 30px;
+    }
+    .footer-area h3 img {
+      margin-top: -200px;
+      margin-bottom: -100px;
+    }
+    .footer-area .quick-links {
+      margin-top: -25px;
+      margin-bottom: -10px;
+    }
+    .footer-area ul {
+      margin-bottom: 20px;
+    }
+    .footer-area ul li {
+      padding: 0px 10px 0px 0px;
+      display: inline;
+    }
+    .footer-area ul li a {
+      font-size: 14px;
+    }
+    .footer-area .personal-life {
+      margin-top: 20px;
+    }
+    .footer-area .blog-margin {
+      margin-bottom: -20px;
+    }
+    .footer-area .image-text {
+      margin-bottom: -30px;
+    }
+    .footer-area .follow-me {
+      margin-top: 10px;
+    }
+    .footer-area .widget {
+      margin-bottom: 40px;
+    }
+    .btn-book {
+      background-color: #09c002;
+      position: relative;
+      z-index: 1;
+      width: 28%;
+      margin-left: 4%;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+    .slicknav_btn {
+      border-color: transparent; /* Menu Border */
+      margin-right: 20px;
+    }
+    .slicknav_nav a:hover, .slicknav_nav .active {
+      color: #09c002;
+      background: #f5f5f5;
+    }
+    .slicknav_nav .dropdown li a.active {
+      background: #f5f5f5;
+      color: #09c002;
+    }
+  }
+  
+  /* mobile or only mobile */
+  @media (max-width: 767px) {
+    .section-title {
+      font-size: 22px;
+    }
+    .section-sub {
+      font-size: 16px;
+    }
+    #main-slide .carousel-caption {
+      top: 22%;
+      
+    }
+    #main-slide .carousel-item img {
+      /* position: relative; */
+      min-height: 767px;
+      min-width: 767px;
+      margin-left: auto;
+      margin-right: auto;
+      background-position: center center;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #main-slide .carousel-item .carousel-caption .heading {
+      font-size: 35px;
+      margin-top: 20%;
+    }
+    #main-slide .carousel-item .carousel-caption p {
+      font-size: 20px;
+    }
+    #main-slide .carousel-indicators {
+      display: none;
+    }
+    #hero-area .contents {
+      padding: 100px 0;
+    }
+    #hero-area .contents .head-title {
+      font-size: 15px;
+    }
+    #hero-area .contents .btn {
+      margin: 25px 3px 0 0;
+    }
+    .countdown-timer .heading-count {
+      padding: 10px;
+    }
+    .countdown-timer .heading-count h2 {
+      font-size: 40px;
+    }
+    .countdown-timer .heading-count h4 {
+      font-size: 12px;
+    }
+    .schedule .card-body {
+      padding: 15px;
+    }
+    .schedule .schedule-tab-title {
+      margin-bottom: 20px;
+    }
+    .schedule .schedule-tab-title .nav-tabs .nav-link {
+      width: 227.5px;
+    }
+    .schedule .schedule-tab-content {
+      margin-bottom: 80px;
+    }
+    #faq .first-row-faq {
+      margin-bottom: -100px;
+    }
+    .accordion .header-title {
+      font-size: 11px;
+    }
+    #pricing .price-block-wrapper .pricing-list {
+      padding: 10px 30px 10px 40px;
+    }
+    #sponsors .spnsors-logo {
+      margin-bottom: 15px;
+    }
+    .blog-item .descr h3 a {
+      font-size: 18px;
+    }
+    .subscribe-inner {
+      padding: 30px 15px;
+    }
+    .subscribe-inner .subscribe-title {
+      font-size: 18px;
+    }
+    .subscribe-inner .form-inline {
+      width: 100%;
+    }
+    .subscribe-inner .form-control {
+      width: 100%;
+    }
+    .subscribe-inner .sub-btn {
+      margin: 20px auto;
+      text-align: center;
+      position: inherit;
+    }
+    .container-form .form-wrapper {
+      background-color: white;
+      padding: 20px 20px 40px 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    .contact-item {
+      margin-bottom: 40px;
+    }
+    .thumb-left img {
+      width: 60%;
+    }
+    #sponsors .spnsors-logo img {
+      width: 80%;
+    }
+    .footer-area h3 {
+      margin-top: 30px;
+    }
+    .footer-area h3 img {
+      margin-top: -200px;
+      margin-bottom: -100px;
+    }
+    .footer-area .quick-links {
+      margin-top: -25px;
+      margin-bottom: -10px;
+    }
+    .footer-area ul {
+      margin-bottom: 20px;
+    }
+    .footer-area ul li {
+      padding: 0px 10px 0px 0px;
+      display: inline;
+    }
+    .footer-area ul li a {
+      font-size: 14px;
+    }
+    .footer-area .personal-life {
+      margin-top: 20px;
+    }
+    .footer-area .blog-margin {
+      margin-bottom: -20px;
+    }
+    .footer-area .image-text {
+      margin-bottom: -30px;
+    }
+    .footer-area .follow-me {
+      margin-top: 10px;
+    }
+    .footer-area .widget {
+      margin-bottom: 40px;
+    }
+    .padding-none:nth-child(1) {
+      border-bottom: 1px solid #ddd;
+    }
+    .padding-none:nth-child(4) {
+      border-bottom: 1px solid #ddd;
+    }
+    .padding-none:nth-child(5) {
+      border-bottom: 1px solid #ddd;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+      background: #09c002;
+      margin-top: -30px;
+      margin-right: -30px;
+    }
+    .btn-tes2 {
+      margin-bottom: 40px;
+    }
+    .skill-bar {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .skill-bar h1 {
+      text-align: center;
+    }
+    #gallery .mobile-margin {
+      margin-top: 30px;
+    }
+    #gallery .btn {
+      font-size: 75%;
+      padding: 6px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 400;
+      color: #fff;
+      text-transform: uppercase;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      display: inline-block;
+    }
+    #gallery .mobile-muri-size {
+      width: 45%;
+      margin-left: 3.5%;
+      padding: 1% 0%;
+    }
+    .slicknav_btn {
+      border-color: transparent; /* Menu Border */
+      margin-right: 20px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    #main-slide .carousel-item .carousel-caption .heading {
+      letter-spacing: 0;
+      margin-top: 0%;
+    }
+    #main-slide .carousel-item .carousel-caption p {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+    #main-slide .carousel-caption .btn {
+      margin-bottom: 0px;
+    }
+    #main-slide .btn {
+      padding: 15px 21px;
+      font-size: 13px
+    }
+    #main-slide .carousel-indicators {
+      display: none;
+    }
+    #main-slide .carousel-item img {
+      /* position: relative; */
+      min-height: 600px;
+      min-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+      background-position: center center;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #countdown {
+      margin-top: -80px;
+      margin-bottom: 0px;
+    }
+    #about .btn-tes {
+      background-color: #09c002;
+      width: 40%;
+      height: 60px;
+      position: relative;
+      text-align: center;
+      z-index: 1;
+      margin-bottom: 5px;
+      padding: auto;
+      font-size: 13px;
+    }
+    #about .btn-tes2 {
+      background-color: #09c002;
+      width: 85%;
+      padding: auto;
+      height: 60px;
+      position: relative;
+      text-align: center;
+      z-index: 1;
+      margin-bottom: 35px;
+      font-size: 25px;
+    }
+    #about .title-sub {
+      font-size: 24px;
+    }
+    #gallery .mini-margin {
+      margin-top: -10px;
+    }
+    .contact-map .container-form {
+      width: 350px;
+    }
+    .newsletter-wrapper .sub-btn {
+      padding: 11px 20px;
+    }
+    .btn {
+      padding: 10px 14px;
+      font-size: 13px;
+    }
+    .dummy-list {
+      background: #fff;
+      color: #fff;
+    }
+    .dummy-list a:hover, .dummy-list .active {
+      color: #fff;
+      background: #fff;
+    }
+    .dummy-list .dropdown li a.active {
+      background: #fff;
+      color: #fff;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+      background: #09c002;
+      margin-top: -30px;
+      margin-right: -40px;
+    }
+    .slicknav_nav a:hover, .slicknav_nav .active {
+      color: #09c002;
+      background: #f5f5f5;
+    }
+    .slicknav_nav .dropdown li a.active {
+      background: #f5f5f5;
+      color: #09c002;
+    }
+    .slicknav_btn {
+      border-color: transparent; /* Menu Border */
+      margin-right: 20px;
+    }
+    #main-slide .carousel-caption .btn {
+      margin: 25px 0px 0px 0px;
+    }
+    .schedule .schedule-tab-title .nav-tabs .nav-link {
+      width: 45vw; 
+    }
+    .schedule .card-header h4 {
+      font-size: 14px;
+    }
+    .countdown-timer .heading-count h3 {
+        font-size: 40px;
+        color: #212121;
+        text-transform: uppercase;
+        line-height: 48px;
+        margin-top: -100px;
+        margin-bottom: 0px;
+      }
+  }
+  @media (min-width: 414px) and (max-width: 414px) {
+    .schedule .schedule-tab-title .nav-tabs .nav-link {
+      width: 192px; 
+    }
+  }
+  
+  @media (min-width: 375px) and (max-width: 375px) {
+    .schedule .schedule-tab-title .nav-tabs .nav-link {
+      width: 172.5px; 
+    }
+  }
+  
