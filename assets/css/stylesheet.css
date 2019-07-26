@@ -919,7 +919,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
 
   .slicknav_menu {
-    display: block;
+    display: none;
   }
   
   .navbar-brand img {
@@ -963,7 +963,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     display: none;
   }
   .slicknav_menu {
-    display: block;
+    display: none;
     border: none;
   }
 }
