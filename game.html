@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Venmo Game</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/blog-responsive.css">
+
+	<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">
+        google.load("jquery", "1.2.6");
+    </script>
+    <script type="text/javascript" src="assets/js/yes.js"></script>
+    <script type="text/javascript" src="assets/js/no.js"></script>
+    <script type="text/javascript" src="assets/js/instructions.js"></script>
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- Countdown Section Start -->
+    <section id="countdown" class="countdown-timer section-padding">
+      <div class="container">
+        <div class="row text-center">
+          <!-- <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="heading-count">
+              <h2 class="wow fadeInDown" data-wow-delay="0.2s">Blog Ready In</h2>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+              <div id="clock" class="time-count"></div>
+            </div>
+          </div> -->
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="heading-count">
+              <h3>Venmo Game</h3>
+              <hr style="border: 1px dashed black;" />
+              <!-- <p>Follow these set of instructions!</p>
+              <ol>
+                <li>Open this link on a mobile phone</li>
+                <li>Use the button below to generate a random number</li>
+                <p>Are you a high roller?</p>
+                <div id="page-wrap">
+                    <button id="getit">Yes</button>
+                    <button id="getit2">No</button>
+                    <div id="randomnumber"></div>
+                </div>
+            </ol> -->
+            <ol>
+                <p>Read the Following Instructions Carefully!</p>
+                <li>Open this link on a mobile phone</li>
+                <li>Are you a high-roller?</li>
+                Yes: Click on a number between 1 and 10.
+                <br />No: Click on a number between 11 and 20.
+                <li>This will trigger a popup, and you will click <font color="#276AD0">Open</font></li>
+                <li>Click on the <a class="btn btn-muri btn-lg">green bar</a> in the bottom of your screen</li>
+                <li>Click the button "Yes" below when you're ready to play the game.</li>
+            </ol>    
+            <input type="button" name="answer" value="Yes" onclick="showDiv()" />
+            <div id="welcomeDiv"  style="display:none;" class="answer_list" >
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=13&note=Here's%2013%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">1</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=12&note=Here's%2012%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">2</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=18&note=Here's%2018%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">3</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=20&note=Here's%2020%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">4</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=17&note=Here's%2017%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">5</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=19&note=Here's%2019%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">6</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=15&note=Here's%2015%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">7</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=14&note=Here's%2014%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">8</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=16&note=Here's%2016%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">9</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=11&note=Here's%2011%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">10</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=4&note=Here's%204%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">11</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=7&note=Here's%207%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">12</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=3&note=Here's%203%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">13</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=1&note=Here's%201%20Dollar!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">14</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=9&note=Here's%209%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">15</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=10&note=Here's%2010%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">16</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=8&note=Here's%208%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">17</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=2&note=Here's%202%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">18</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=5&note=Here's%205%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">19</a>
+                    <a href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=6&note=Here's%206%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">20</a>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-chevron-up"></i>
+    </a>
+
+    <div id="preloader">
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/blogmain.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/javascript.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+      
+  </body>
+</html>
