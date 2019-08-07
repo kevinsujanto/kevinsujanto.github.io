@@ -82,6 +82,13 @@ button,input,textarea,select{
 .donation-class{
     text-align: center;
 }
+.margin-top-counter
+{
+    padding-top: 15px;
+}
+#copyright a{
+    color: #09c002;
+}
 .donate {
     background-image: url(../images/work/money.png);
     background-repeat: no-repeat;
@@ -3081,15 +3088,15 @@ mark{
 @supports (--css: variables){
     @media (min-width: 64rem){
         :root{
-            --cd-header-height: 300px
+            --cd-header-height: 240px
         }
     }
 }
 .cd-main-header{
     height:200px;
     height:var(--cd-header-height);
-    background: rgb(66, 68, 66);
-    color: #49f008; /* Change Header Color */
+    background:#222222ea;
+    color: #eeeeee; /* Change Header Color */
 }
 .cd-main-header h1{
     font-family:'Open Sans', sans-serif;
@@ -3102,7 +3109,7 @@ mark{
     padding:var(--space-lg) 0;
     color:hsl(207, 10%, 55%);
     color:var(--cd-color-3);
-    background-color: rgb(168, 168, 168);
+    background-color: #eeeeee;
     font-family:'Droid Serif', serif;
     font-family:var(--font-primary)
 }
@@ -3123,8 +3130,7 @@ mark{
     left:18px;
     height:100%;
     width:4px;
-    background:hsl(205, 38%, 89%);
-    background:var(--cd-color-2)
+    background: #5aa8e9;
 }
 @media (min-width: 64rem){
     .cd-timeline__container::before{
