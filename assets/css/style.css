@@ -95,6 +95,9 @@ button,input,textarea,select{
     background-position: center center;
     background-attachment: scroll;
 } 
+#mapdiv {
+    height: 50vw;
+}
 .btn {
   font-size: 14px;
   padding: 12px 20px;
