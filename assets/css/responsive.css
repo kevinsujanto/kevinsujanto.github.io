@@ -446,9 +446,10 @@
     display: inline-block;
   }
   #gallery .mobile-muri-size {
-    width: 45%;
-    margin-left: 3.5%;
-    padding: 1% 0%;
+    width: 38.5%;
+    margin-left: 7%;
+    margin-right: 5%;
+    padding: 1%;
   }
   .slicknav_btn {
     border-color: transparent; /* Menu Border */
