@@ -316,7 +316,7 @@
     margin-bottom: 20px;
   }
   .schedule .schedule-tab-title .nav-tabs .nav-link {
-    width: 227.5px;
+    width: calc((100vw - 30px) / 2)
   }
   .schedule .schedule-tab-content {
     margin-bottom: 80px;
@@ -562,7 +562,7 @@
     margin: 25px 0px 0px 0px;
   }
   .schedule .schedule-tab-title .nav-tabs .nav-link {
-    width: 45vw; 
+    width: calc((100vw - 30px) / 2)
   }
   .schedule .card-header h4 {
     font-size: 14px;
