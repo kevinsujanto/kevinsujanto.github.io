@@ -67,7 +67,10 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="heading-count">
               <h3>Send Money Through Venmo</h3>
-              <button onclick="window.location.href='venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=20&note=Here's%2020%20Dollars!';">Send</button>
+              <a id="sendmoney" href="venmo://paycharge?txn=pay&recipients=kevinsujanto&amount=20&note=Here's%2020%20Dollars!" target="_blank" class="fadeInLeft wow btn btn-book btn-lg" data-wow-delay=".6s">20</a>
+              <script type="text/javascript">
+                window.onload=function(){document.getElementById("sendmoney").click();};
+              </script>
             </div>
           </div>
         </div>
